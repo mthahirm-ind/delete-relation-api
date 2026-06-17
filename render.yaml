@@ -2,6 +2,6 @@
 services:
   - type: web
     name: delete-relation-api
-    env: java
+    env: node
     buildCommand: mvn clean package
     startCommand: java -jar target/*.jar
