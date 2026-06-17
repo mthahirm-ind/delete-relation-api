@@ -1,0 +1,7 @@
+
+ervices:
+  - type: web
+    name: delete-relation-api
+    env: java
+    buildCommand: mvn clean package
+    startCommand: java -jar target/*.jar
