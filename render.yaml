@@ -1,5 +1,5 @@
 
-ervices:
+services:
   - type: web
     name: delete-relation-api
     env: java
